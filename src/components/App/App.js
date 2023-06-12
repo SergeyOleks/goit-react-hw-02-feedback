@@ -1,4 +1,5 @@
 import css from 'components/App/App.module.css';
+
 import { Component } from 'react';
 import Section from 'components/Section/Section';
 import FeedbackOptions from 'components/FeedbackOptions/FeedbackOptions';
@@ -58,7 +59,7 @@ class App extends Component {
             positivePercent={positivePercent}
           />
         ) : (
-          <Notification message="There is no feedback"/>
+          <Notification message="There is no feedback" />
         )}
       </div>
     );
